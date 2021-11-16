@@ -1,0 +1,563 @@
+/*************** responsive index page start***************/
+/*************** responsive extra small device start***************/
+@media (min-width: 320px) and (max-width: 575px) {
+  .slider_title {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .main_title {
+    .title_text {
+      width: 45%;
+      h1 {
+        font-size: 40px;
+      }
+    }
+    .line {
+      width: 55%;
+    }
+  }
+
+  #navbar_part {
+    .navbar-brand {
+      font-size: 42px;
+    }
+    .navbar-toggler {
+      padding: 0;
+      span {
+        i {
+          font-size: 25px;
+          color: #ffffff;
+        }
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    ul {
+      background: rgba(0, 3, 66, 0.9);
+    }
+  }
+  #banner_part {
+    padding-top: 110px;
+    .banner_hdr {
+      font-size: 32px;
+    }
+    .banner_items {
+      input[type="text"] {
+        margin-bottom: 0;
+      }
+      .banner_objects {
+        .row {
+          [class|="col"] {
+            margin-top: 16px;
+          }
+        }
+        select {
+          font-size: 18px;
+          option {
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+        button {
+          padding: 6px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  #popular_part {
+    width: 90%;
+    .popular_slider {
+      .left_arrow {
+        left: 15px;
+      }
+      .right_arrow {
+        right: 15px;
+      }
+    }
+  }
+  #live_part {
+    .row {
+      [class|="col"] {
+        margin-bottom: 20px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .live_text {
+      .row {
+        [class|="col"] {
+          margin-bottom: 20px;
+        }
+      }
+      .live_text_hdr {
+        font-size: 32px;
+        padding: 0;
+      }
+      .live_text_content {
+        .content_icon {
+          width: 15%;
+        }
+        .content_details {
+          width: 85%;
+          h4 {
+            font-size: 20px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+  #best_part {
+    width: 90%;
+    .best_slider {
+      .left_arrow {
+        left: 15px;
+      }
+      .right_arrow {
+        right: 15px;
+      }
+    }
+  }
+  #course_part {
+    background-position: left bottom;
+    background-size: 170%;
+    z-index: -1;
+    &::after {
+      content: "";
+      width: 100%;
+      height: 35%;
+      background-size: 80% !important;
+      z-index: -1;
+    }
+    .main_title {
+      flex-direction: row;
+      .title_text {
+        width: auto;
+      }
+    }
+    .course_text {
+      p {
+        font-size: 32px;
+        margin: 24px 0;
+        &:last-child {
+          width: auto;
+        }
+      }
+    }
+  }
+  #mentor_part {
+    .main_title {
+      .title_text {
+        width: 70%;
+      }
+      .line {
+        width: 30%;
+      }
+    }
+    .mentor_text {
+      .mentor_text_content {
+        .content_icon {
+          width: 12%;
+        }
+      }
+    }
+    .mentor_imgs {
+      margin-top: 32px;
+      .img_overlay {
+        .row {
+          [class|="col"] {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+  #footer_part {
+    .footer_items {
+      text-align: center;
+    }
+    .footer_footer {
+      justify-content: center;
+      .footer_btns {
+        width: 135px;
+        .btn_icon {
+          i {
+            font-size: 25px;
+          }
+        }
+        .details {
+          p {
+            font-size: 13px;
+          }
+          h3 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .footer_right {
+      margin-top: 16px !important;
+      justify-content: center !important;
+      .footer_logo {
+        span {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+/*************** responsive extra small device end***************/
+
+/*************** responsive small device start***************/
+@media (min-width: 576px) and (max-width: 767px) {
+  .slider_title {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .main_title {
+    .title_text {
+      width: 45%;
+      h1 {
+        font-size: 40px;
+      }
+    }
+    .line {
+      width: 55%;
+    }
+  }
+
+  #navbar_part {
+    .navbar-brand {
+      font-size: 42px;
+    }
+    .navbar-toggler {
+      padding: 0;
+      span {
+        i {
+          font-size: 25px;
+          color: #ffffff;
+        }
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    ul {
+      background: rgba(0, 3, 66, 0.9);
+    }
+  }
+  #banner_part {
+    padding-top: 190px;
+    .banner_hdr {
+      font-size: 32px;
+    }
+    .banner_items {
+      input[type="text"] {
+        margin-bottom: 0;
+      }
+      .banner_objects {
+        .row {
+          [class|="col"] {
+            margin-top: 16px;
+          }
+        }
+        select {
+          font-size: 18px;
+          option {
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+        button {
+          padding: 6px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  #popular_part {
+    width: 90%;
+    .popular_slider {
+      .left_arrow {
+        left: 15px;
+      }
+      .right_arrow {
+        right: 15px;
+      }
+    }
+  }
+  #live_part {
+    .row {
+      [class|="col"] {
+        margin-bottom: 20px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .live_text {
+      .row {
+        [class|="col"] {
+          margin-bottom: 20px;
+        }
+      }
+      .live_text_hdr {
+        font-size: 32px;
+        padding: 0;
+      }
+      .live_text_content {
+        .content_icon {
+          width: 15%;
+        }
+        .content_details {
+          width: 85%;
+          h4 {
+            font-size: 20px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+  #best_part {
+    width: 90%;
+    .best_slider {
+      .left_arrow {
+        left: 15px;
+      }
+      .right_arrow {
+        right: 15px;
+      }
+    }
+  }
+  #course_part {
+    background-position: left bottom;
+    background-size: 170%;
+    z-index: -1;
+    &::after {
+      content: "";
+      width: 85%;
+      height: 48%;
+      background-size: 62% !important;
+      z-index: -1;
+    }
+    .main_title {
+      flex-direction: row;
+      .title_text {
+        width: auto;
+      }
+    }
+    .course_text {
+      p {
+        font-size: 32px;
+        margin: 24px 0;
+        &:last-child {
+          width: auto;
+        }
+      }
+    }
+  }
+  #mentor_part {
+    .mentor_imgs {
+      margin-top: 32px;
+    }
+  }
+  #footer_part {
+    .footer_items {
+      text-align: center;
+    }
+    .footer_right {
+      margin-top: 16px;
+    }
+  }
+}
+/*************** responsive small device end***************/
+
+/*************** responsive medium device start***************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_title {
+    h2 {
+      // font-size: 30px;
+    }
+  }
+  .main_title {
+    .title_text {
+      width: 30%;
+      h1 {
+        font-size: 40px;
+      }
+    }
+    .line {
+      width: 70%;
+    }
+  }
+
+  #navbar_part {
+    .navbar-brand {
+      font-size: 54px;
+    }
+    .navbar-toggler {
+      padding: 0;
+      span {
+        i {
+          font-size: 32px;
+          color: #ffffff;
+        }
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    ul {
+      background: rgba(0, 3, 66, 0.9);
+    }
+  }
+  #banner_part {
+    padding-top: 310px;
+    .banner_hdr {
+      font-size: 44px;
+    }
+    .banner_items {
+      input[type="text"] {
+        margin-bottom: 0;
+      }
+      .banner_objects {
+        .row {
+          [class|="col"] {
+            margin-top: 16px;
+          }
+        }
+        select {
+          // font-size: inherit;
+          option {
+            // font-size: inherit;
+            font-weight: 500;
+          }
+        }
+        button {
+          // padding: 6px;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  #popular_part {
+    width: 90%;
+    .popular_slider {
+      .left_arrow {
+        left: 15px;
+      }
+      .right_arrow {
+        right: 15px;
+      }
+    }
+  }
+  #live_part {
+    .row {
+      [class|="col"] {
+        margin-bottom: 20px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .live_img {
+      .img_box {
+        height: 90% !important;
+      }
+    }
+    .live_text {
+      // .row {
+      //   [class|="col"] {
+      //     margin-bottom: 20px;
+      //   }
+      // }
+      .live_text_hdr {
+        font-size: 32px;
+        padding: 0;
+      }
+      .live_text_content {
+        .content_icon {
+          width: 15%;
+        }
+        .content_details {
+          width: 85%;
+          h4 {
+            font-size: 20px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+  #best_part {
+    width: 90%;
+    .best_slider {
+      .left_arrow {
+        left: 15px;
+      }
+      .right_arrow {
+        right: 15px;
+      }
+    }
+  }
+  #course_part {
+    background-position: left bottom;
+    background-size: 170%;
+    z-index: -1;
+    &::after {
+      content: "";
+      width: 85%;
+      height: 48%;
+      background-size: 62% !important;
+      z-index: -1;
+    }
+    .main_title {
+      flex-direction: row;
+      .title_text {
+        width: auto;
+      }
+    }
+    .course_text {
+      p {
+        font-size: 32px;
+        margin: 24px 0;
+        &:last-child {
+          width: auto;
+        }
+      }
+    }
+  }
+  #mentor_part {
+    .mentor_imgs {
+      margin-top: 32px;
+    }
+  }
+  #footer_part {
+    .row {
+      .row {
+        [class|="col"] {
+          .footer_footer {
+            justify-content: center;
+          }
+          &:first-child {
+            align-self: center;
+          }
+        }
+      }
+    }
+    .footer_items {
+      text-align: center;
+    }
+    .footer_right {
+      margin-top: 16px;
+    }
+  }
+}
+/*************** responsive medium device end***************/
+/*************** responsive index page end***************/

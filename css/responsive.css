@@ -1,0 +1,341 @@
+/*************** responsive index page start***************/
+/*************** responsive extra small device start***************/
+@media (min-width: 320px) and (max-width: 575px) {
+  .slider_title h2 {
+    font-size: 30px; }
+
+  .main_title .title_text {
+    width: 45%; }
+    .main_title .title_text h1 {
+      font-size: 40px; }
+  .main_title .line {
+    width: 55%; }
+
+  #navbar_part .navbar-brand {
+    font-size: 42px; }
+  #navbar_part .navbar-toggler {
+    padding: 0; }
+    #navbar_part .navbar-toggler span i {
+      font-size: 25px;
+      color: #ffffff; }
+    #navbar_part .navbar-toggler:focus {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+  #navbar_part ul {
+    background: rgba(0, 3, 66, 0.9); }
+
+  #banner_part {
+    padding-top: 110px; }
+    #banner_part .banner_hdr {
+      font-size: 32px; }
+    #banner_part .banner_items input[type="text"] {
+      margin-bottom: 0; }
+    #banner_part .banner_items .banner_objects .row [class|="col"] {
+      margin-top: 16px; }
+    #banner_part .banner_items .banner_objects select {
+      font-size: 18px; }
+      #banner_part .banner_items .banner_objects select option {
+        font-size: 16px;
+        font-weight: 500; }
+    #banner_part .banner_items .banner_objects button {
+      padding: 6px;
+      font-size: 20px; }
+
+  #popular_part {
+    width: 90%; }
+    #popular_part .popular_slider .left_arrow {
+      left: 15px; }
+    #popular_part .popular_slider .right_arrow {
+      right: 15px; }
+
+  #live_part .row [class|="col"] {
+    margin-bottom: 20px; }
+    #live_part .row [class|="col"]:last-child {
+      margin-bottom: 0; }
+  #live_part .live_text .row [class|="col"] {
+    margin-bottom: 20px; }
+  #live_part .live_text .live_text_hdr {
+    font-size: 32px;
+    padding: 0; }
+  #live_part .live_text .live_text_content .content_icon {
+    width: 15%; }
+  #live_part .live_text .live_text_content .content_details {
+    width: 85%; }
+    #live_part .live_text .live_text_content .content_details h4 {
+      font-size: 20px;
+      margin-bottom: 0px; }
+
+  #best_part {
+    width: 90%; }
+    #best_part .best_slider .left_arrow {
+      left: 15px; }
+    #best_part .best_slider .right_arrow {
+      right: 15px; }
+
+  #course_part {
+    background-position: left bottom;
+    background-size: 170%;
+    z-index: -1; }
+    #course_part::after {
+      content: "";
+      width: 100%;
+      height: 35%;
+      background-size: 80% !important;
+      z-index: -1; }
+    #course_part .main_title {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      #course_part .main_title .title_text {
+        width: auto; }
+    #course_part .course_text p {
+      font-size: 32px;
+      margin: 24px 0; }
+      #course_part .course_text p:last-child {
+        width: auto; }
+
+  #mentor_part .main_title .title_text {
+    width: 70%; }
+  #mentor_part .main_title .line {
+    width: 30%; }
+  #mentor_part .mentor_text .mentor_text_content .content_icon {
+    width: 12%; }
+  #mentor_part .mentor_imgs {
+    margin-top: 32px; }
+    #mentor_part .mentor_imgs .img_overlay .row [class|="col"] {
+      width: 50%; }
+
+  #footer_part .footer_items {
+    text-align: center; }
+  #footer_part .footer_footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #footer_part .footer_footer .footer_btns {
+      width: 135px; }
+      #footer_part .footer_footer .footer_btns .btn_icon i {
+        font-size: 25px; }
+      #footer_part .footer_footer .footer_btns .details p {
+        font-size: 13px; }
+      #footer_part .footer_footer .footer_btns .details h3 {
+        font-size: 16px; }
+  #footer_part .footer_right {
+    margin-top: 16px !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important; }
+    #footer_part .footer_right .footer_logo span {
+      font-size: 40px; } }
+/*************** responsive extra small device end***************/
+/*************** responsive small device start***************/
+@media (min-width: 576px) and (max-width: 767px) {
+  .slider_title h2 {
+    font-size: 30px; }
+
+  .main_title .title_text {
+    width: 45%; }
+    .main_title .title_text h1 {
+      font-size: 40px; }
+  .main_title .line {
+    width: 55%; }
+
+  #navbar_part .navbar-brand {
+    font-size: 42px; }
+  #navbar_part .navbar-toggler {
+    padding: 0; }
+    #navbar_part .navbar-toggler span i {
+      font-size: 25px;
+      color: #ffffff; }
+    #navbar_part .navbar-toggler:focus {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+  #navbar_part ul {
+    background: rgba(0, 3, 66, 0.9); }
+
+  #banner_part {
+    padding-top: 190px; }
+    #banner_part .banner_hdr {
+      font-size: 32px; }
+    #banner_part .banner_items input[type="text"] {
+      margin-bottom: 0; }
+    #banner_part .banner_items .banner_objects .row [class|="col"] {
+      margin-top: 16px; }
+    #banner_part .banner_items .banner_objects select {
+      font-size: 18px; }
+      #banner_part .banner_items .banner_objects select option {
+        font-size: 16px;
+        font-weight: 500; }
+    #banner_part .banner_items .banner_objects button {
+      padding: 6px;
+      font-size: 20px; }
+
+  #popular_part {
+    width: 90%; }
+    #popular_part .popular_slider .left_arrow {
+      left: 15px; }
+    #popular_part .popular_slider .right_arrow {
+      right: 15px; }
+
+  #live_part .row [class|="col"] {
+    margin-bottom: 20px; }
+    #live_part .row [class|="col"]:last-child {
+      margin-bottom: 0; }
+  #live_part .live_text .row [class|="col"] {
+    margin-bottom: 20px; }
+  #live_part .live_text .live_text_hdr {
+    font-size: 32px;
+    padding: 0; }
+  #live_part .live_text .live_text_content .content_icon {
+    width: 15%; }
+  #live_part .live_text .live_text_content .content_details {
+    width: 85%; }
+    #live_part .live_text .live_text_content .content_details h4 {
+      font-size: 20px;
+      margin-bottom: 0px; }
+
+  #best_part {
+    width: 90%; }
+    #best_part .best_slider .left_arrow {
+      left: 15px; }
+    #best_part .best_slider .right_arrow {
+      right: 15px; }
+
+  #course_part {
+    background-position: left bottom;
+    background-size: 170%;
+    z-index: -1; }
+    #course_part::after {
+      content: "";
+      width: 85%;
+      height: 48%;
+      background-size: 62% !important;
+      z-index: -1; }
+    #course_part .main_title {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      #course_part .main_title .title_text {
+        width: auto; }
+    #course_part .course_text p {
+      font-size: 32px;
+      margin: 24px 0; }
+      #course_part .course_text p:last-child {
+        width: auto; }
+
+  #mentor_part .mentor_imgs {
+    margin-top: 32px; }
+
+  #footer_part .footer_items {
+    text-align: center; }
+  #footer_part .footer_right {
+    margin-top: 16px; } }
+/*************** responsive small device end***************/
+/*************** responsive medium device start***************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .main_title .title_text {
+    width: 30%; }
+    .main_title .title_text h1 {
+      font-size: 40px; }
+  .main_title .line {
+    width: 70%; }
+
+  #navbar_part .navbar-brand {
+    font-size: 54px; }
+  #navbar_part .navbar-toggler {
+    padding: 0; }
+    #navbar_part .navbar-toggler span i {
+      font-size: 32px;
+      color: #ffffff; }
+    #navbar_part .navbar-toggler:focus {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+  #navbar_part ul {
+    background: rgba(0, 3, 66, 0.9); }
+
+  #banner_part {
+    padding-top: 310px; }
+    #banner_part .banner_hdr {
+      font-size: 44px; }
+    #banner_part .banner_items input[type="text"] {
+      margin-bottom: 0; }
+    #banner_part .banner_items .banner_objects .row [class|="col"] {
+      margin-top: 16px; }
+    #banner_part .banner_items .banner_objects select option {
+      font-weight: 500; }
+    #banner_part .banner_items .banner_objects button {
+      font-size: 22px; }
+
+  #popular_part {
+    width: 90%; }
+    #popular_part .popular_slider .left_arrow {
+      left: 15px; }
+    #popular_part .popular_slider .right_arrow {
+      right: 15px; }
+
+  #live_part .row [class|="col"] {
+    margin-bottom: 20px; }
+    #live_part .row [class|="col"]:last-child {
+      margin-bottom: 0; }
+  #live_part .live_img .img_box {
+    height: 90% !important; }
+  #live_part .live_text .live_text_hdr {
+    font-size: 32px;
+    padding: 0; }
+  #live_part .live_text .live_text_content .content_icon {
+    width: 15%; }
+  #live_part .live_text .live_text_content .content_details {
+    width: 85%; }
+    #live_part .live_text .live_text_content .content_details h4 {
+      font-size: 20px;
+      margin-bottom: 0px; }
+
+  #best_part {
+    width: 90%; }
+    #best_part .best_slider .left_arrow {
+      left: 15px; }
+    #best_part .best_slider .right_arrow {
+      right: 15px; }
+
+  #course_part {
+    background-position: left bottom;
+    background-size: 170%;
+    z-index: -1; }
+    #course_part::after {
+      content: "";
+      width: 85%;
+      height: 48%;
+      background-size: 62% !important;
+      z-index: -1; }
+    #course_part .main_title {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      #course_part .main_title .title_text {
+        width: auto; }
+    #course_part .course_text p {
+      font-size: 32px;
+      margin: 24px 0; }
+      #course_part .course_text p:last-child {
+        width: auto; }
+
+  #mentor_part .mentor_imgs {
+    margin-top: 32px; }
+
+  #footer_part .row .row [class|="col"] .footer_footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  #footer_part .row .row [class|="col"]:first-child {
+    -ms-flex-item-align: center;
+        align-self: center; }
+  #footer_part .footer_items {
+    text-align: center; }
+  #footer_part .footer_right {
+    margin-top: 16px; } }
+/*************** responsive medium device end***************/
+/*************** responsive index page end***************/
+
+/*# sourceMappingURL=responsive.css.map */

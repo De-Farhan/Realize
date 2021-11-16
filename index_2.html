@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- realize site title -->
+    <title>REALIZE</title>
+    <!-- font awesome script-->
+    <script
+      src="https://kit.fontawesome.com/08bf087551.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts link here -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- slick slider css link here -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <!-- bootstrap css link here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- custom css link here -->
+    <link rel="stylesheet" href="css/style_2.css" />
+    <!-- website responsive all page link here -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- index2 navbar part start -->
+    <nav class="navbar navbar-expand-lg" id="index2_nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">REALIZE.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fas fa-bars" aria-hidden="true"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <div class="check_box" id="check_box">
+                  <div class="check_indicator" id="check_indicator"></div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Francais
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">link one</a></li>
+                <li><a class="dropdown-item" href="#">link two</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Euros
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">link one</a></li>
+                <li><a class="dropdown-item" href="#">link two</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link icon_circle" href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link icon_circle" href="#">
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link icon_circle" href="#">
+                <i class="fas fa-play"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link profile" role="button" href="#">
+                <img
+                  class="pro_img"
+                  src="image/index2-profile-img.png"
+                  alt="index2-profile-img.png"
+                />
+                <div class="profile_toltip">my profile</div>
+              </a>
+
+              <div id="profileWrapper" class="profile_wrapper content">
+                <div class="about_author">
+                  <h3 class="author_name">Marie antoinette</h3>
+                  <span class="mail">marie@antonietter.com</span>
+                </div>
+                <div class="about_profile">
+                  <ul>
+                    <li>
+                      <a href="#">Points Cors <span>35</span></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Mes formations <i class="fas fa-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Messagerie <i class="fas fa-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Reductions <i class="fas fa-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Profil partner <i class="fas fa-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Reglage <i class="fas fa-chevron-right"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#">Aides <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Activer profile public
+                        <div class="form-check form-switch">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="flexSwitchCheckDefault"
+                          />
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="btn_wrapper">
+                        <div class="button">Acces Formateur</div>
+                        <div class="button">Deconexion</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- index2 navbar part end -->
+
+    <!-- index2 search part start -->
+    <section id="search_part">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="#" id="search_form">
+              <input
+                type="search"
+                name="search"
+                placeholder="fitness, siences, technologie..."
+              />
+              <button type="button" class="search_button">Search</button>
+            </form>
+          </div>
+          <div class="col-lg-12">
+            <div class="search_keywords">
+              <div class="keyword sport">
+                <span>Sport</span>
+              </div>
+              <div class="keyword work">
+                <span>Word</span>
+              </div>
+              <div class="keyword heal">
+                <span>Healthy</span>
+              </div>
+              <div class="keyword edu">
+                <span>Education</span>
+              </div>
+              <div class="keyword work">
+                <span>Word</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- index2 search part end -->
+
+    <!-- index2 banner part start -->
+    <section id="index2_banner">
+      <div class="index2_banner">
+        <div class="banner_img">
+          <img src="image/index2-banner-img.png" alt="index2-banner-img.png" />
+          <div class="banner_overlay"></div>
+        </div>
+      </div>
+      <div class="index2_banner">
+        <div class="banner_img">
+          <img src="image/live_img1.png" alt="live_img1.png" />
+          <div class="banner_overlay"></div>
+        </div>
+      </div>
+      <div class="index2_banner">
+        <div class="banner_img">
+          <img src="image/index2-banner-img.png" alt="index2-banner-img.png" />
+          <div class="banner_overlay"></div>
+        </div>
+      </div>
+    </section>
+    <!-- index2 banner part end -->
+
+    <!-- index2 yoga part start -->
+    <section id="yoga_part">
+      <div class="container-fluid">
+        <div class="yoga_hdr">
+          <a href="#">realize</a>
+          <a href="#">sport</a>
+          <a href="#">yoga</a>
+        </div>
+        <div class="yoga_title">
+          <h1>yoga</h1>
+          <p>
+            decourez nos formations et coachs Yoga, selectionner vos objectifs
+            afin d'appronfondir votre recherche et discuter dans le fornm avec
+            des partenaires qui partage le meme objectif que vous > Comment
+            fonctionne REALIZE.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- index2 yoga part end -->
+
+    <!-- footer part start -->
+    <section id="footer_part">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer_items">
+              <h2 class="footer_title">categories</h2>
+              <ul>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">buisness</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Bien etre</a></li>
+                <li><a href="#">History</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer_items">
+              <h2 class="footer_title">About</h2>
+              <ul>
+                <li><a href="#">our instructor</a></li>
+                <li><a href="#">Our courses</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms of service</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer_items">
+              <h2 class="footer_title">Gestion Des comptes</h2>
+              <ul>
+                <li><a href="#">Consultez notre FAQ</a></li>
+                <li><a href="#">Contact support</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer_items_other">
+              <ul>
+                <li><a href="#">Francais</a></li>
+                <li><a href="#">Euros $</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="footer_footer">
+                  <a href="#">
+                    <div class="footer_btns">
+                      <div class="btn_icon">
+                        <i class="fab fa-apple"></i>
+                      </div>
+                      <div class="details">
+                        <p>download On</p>
+                        <h3>app store</h3>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="footer_btns">
+                      <div class="btn_icon">
+                        <i class="fab fa-google-play"></i>
+                      </div>
+                      <div class="details">
+                        <p>get it On</p>
+                        <h3>Google Play</h3>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="footer_footer footer_right">
+                  <div class="footer_box"></div>
+                  <div class="footer_logo">
+                    <span>realize.</span>
+                    <p class="by">by cors tech</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer part end -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main_script.js"></script>
+  </body>
+</html>
